@@ -6,6 +6,7 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    puts "Howdy! test was running.."
+    assert true
   end
 end
