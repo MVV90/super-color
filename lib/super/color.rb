@@ -35,6 +35,8 @@ module Super
     alias color_error red
     alias color_success green
 
+
+
     # all same
     def bright
 
@@ -59,6 +61,10 @@ module Super
     def puts_red
       puts red
     end
+
+    alias puts_warning puts_yellow
+    alias puts_error puts_red
+    alias puts_success puts_green
 
   end
 end
