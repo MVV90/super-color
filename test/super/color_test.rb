@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class Super::ColorTest < Minitest::Test
+
   def test_that_it_has_a_version_number
     refute_nil ::Super::Color::VERSION
   end
@@ -11,6 +12,6 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_mixin_works_for_string_class
-    assert defined? String.new.___test___!
+    assert defined? String.new.___only_for_test___!
   end
 end

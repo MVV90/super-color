@@ -4,6 +4,6 @@ class String
   include Super::Color
 
   if ENV['RACK_ENV'] == 'test'
-    def ___test___!; true end
+    def ___only_for_test___!; true end
   end
 end
