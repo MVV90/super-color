@@ -6,12 +6,11 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    puts "Howdy! test was running..."
+    puts "\nHowdy! This is a color test".red
     assert true
   end
 
   def test_mixin_works_for_string_class
-    string = String.new
-    assert defined? string.test
+    assert defined? String.new.___test___!
   end
 end

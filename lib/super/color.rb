@@ -13,7 +13,7 @@ module Super
       replace capitalize_each
     end
 
-    def re
+    def red
       "\e[31m#{self}\e[0m"
     end
 
