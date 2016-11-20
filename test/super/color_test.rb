@@ -7,7 +7,12 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    puts "\nHowdy! This is a color test".red
+    print "\nHowdy! This is a color test = "
+    print ".".red
+    print ".".magenta
+    print ".".yellow
+    print ". \n".green
+
     assert true
   end
 

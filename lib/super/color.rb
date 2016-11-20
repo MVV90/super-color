@@ -17,6 +17,21 @@ module Super
       "\e[31m#{self}\e[0m"
     end
 
+    def green
+      "\e[92m#{self}\e[0m"
+    end
+
+    def yellow
+      "\e[93m#{self}\e[0m"
+    end
+
+    def magenta
+      "\e[35m#{self}\e[0m"
+    end
+
+    alias bright_yellow yellow
+
+
     # def yellow
     #    "\e[31m#{self}\e[0m"
     # should be bright yellow
