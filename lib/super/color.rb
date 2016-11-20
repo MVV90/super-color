@@ -31,29 +31,9 @@ module Super
 
     alias bright_yellow yellow
 
-
-    # def yellow
-    #    "\e[31m#{self}\e[0m"
-    # should be bright yellow
-    # gold should be yellow
-    # faitn yellow should be brown
-    #  end
-
-    def warning
-      #bright yellow
-    end
-
-    def error
-      #red or bright red
-    end
-
-    def major_error
-      # bold bright red
-    end
-
-    def success
-      # green
-    end
+    alias color_warning yellow
+    alias color_error red
+    alias color_success green
 
     # all same
     def bright
