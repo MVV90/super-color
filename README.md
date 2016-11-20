@@ -1,6 +1,8 @@
 # Super::Color
 [![Build Status](https://travis-ci.org/MVV90/super-color.svg?branch=master)](https://travis-ci.org/MVV90/super-color)
 
+[![Test Coverage](https://raw.githubusercontent.com/MVV90/super-color/master/coverage/index.html)](https://travis-ci.org/MVV90/super-color)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/super/color`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
