@@ -49,13 +49,16 @@ module Super
     end
 
     def puts_yellow
-      puts "\e[31m#{self}\e[0m"
+      puts yellow
     end
 
     def puts_green
-      "\e[31m#{self}\e[0m"
+      puts green
     end
 
+    def puts_red
+      puts red
+    end
 
   end
 end
