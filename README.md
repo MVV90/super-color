@@ -1,7 +1,25 @@
 # Super::Color
 [![Build Status](https://travis-ci.org/MVV90/super-color.svg?branch=master)](https://travis-ci.org/MVV90/super-color)
 
-[![Test Coverage](https://raw.githubusercontent.com/MVV90/super-color/master/coverage/index.html)](https://travis-ci.org/MVV90/super-color)
+<div id="coverage" style="background-color: white; border-radius: 5px; padding: 5px 5px 5px 10px; align: center">
+  SimpleCov Test Coverage: <span id="new-projects"></span>
+</div>
+
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+  $("#new-projects").load( "https://raw.githubusercontent.com/MVV90/super-color/master/coverage/index.html #footer div", 
+     function(responseTxt, statusTxt, xhr) {
+       var coveragePercent = $(responseTxt).find(".yellow:first").text();
+       $("#new-projects").html(coveragePercent);
+       
+       if(coveragePercent >= 100.0) {
+         $("#coverage").css("border", "2px solid green");
+       } else {
+         $("#coverage").css("border", "2px solid red");
+       }
+     }
+  );
+</script>
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/super/color`. To experiment with that code, run `bin/console` for an interactive prompt.
 
