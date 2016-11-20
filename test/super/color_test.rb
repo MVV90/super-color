@@ -9,4 +9,9 @@ class Super::ColorTest < Minitest::Test
     puts "Howdy! test was running..."
     assert true
   end
+
+  def test_mixin_works_for_string_class
+    string = String.new
+    assert defined? string.test
+  end
 end

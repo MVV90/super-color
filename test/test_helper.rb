@@ -1,4 +1,6 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'super/color'
 
+ENV['RACK_ENV'] = 'test'
+
+require 'super/color'
 require 'minitest/autorun'
