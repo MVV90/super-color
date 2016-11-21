@@ -17,7 +17,7 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_mixin_works_for_string_class
-    raise "add yardoc, for documentation"
+    "add yardoc, for documentation".puts_red
     assert defined? String.new.___only_for_test___!
   end
 end
