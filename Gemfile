@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rake-compiler', :require => false
+
 group :test do
   gem 'simplecov', :require => false
 end
