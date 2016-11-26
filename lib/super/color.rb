@@ -1,9 +1,16 @@
 require "super/color/version"
 require_relative "../mixin/string"
 
+require_relative "../text_power"
+# require File.expand_path('../../text_power', __FILE__)
+
+include TextPower
+puts test1
+
+
+
 module Super
   module Color
-    # Your code goes here...
 
     def capitalize_each
       self.split(" ").each { |word| word.capitalize! }.join(" ")
