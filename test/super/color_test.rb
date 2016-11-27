@@ -6,10 +6,6 @@ class Super::ColorTest < Minitest::Test
     refute_nil ::Super::Color::VERSION
   end
 
-  def test_c_native_extension
-    assert true # todo
-  end
-
   def test_it_does_something_useful
     print "\nHowdy! This is a color test = "
     print ".".red
@@ -21,7 +17,6 @@ class Super::ColorTest < Minitest::Test
   end
 
   def test_mixin_works_for_string_class
-    "add yardoc, for documentation".puts_red
     assert defined? String.new.___only_for_test___!
   end
 end
