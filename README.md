@@ -20,7 +20,7 @@
      }
   );
 </script>
-
+---
 SuperColor is an easy to use gem that gives color to any text in your terminal and `puts` statements.
 
 ## Installation
