@@ -50,21 +50,17 @@ module Super
 
     end
 
-    def puts_yellow
+    def puts_warning
       puts yellow
     end
 
-    def puts_green
+    def puts_success
       puts green
     end
 
-    def puts_red
+    def puts_error
       puts red
     end
-
-    alias puts_warning puts_yellow
-    alias puts_error puts_red
-    alias puts_success puts_green
 
   end
 end

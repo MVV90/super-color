@@ -21,9 +21,7 @@
   );
 </script>
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/super/color`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+SuperColor is an easy to use gem that gives color to any text in your terminal and `puts` statements.
 
 ## Installation
 
@@ -43,7 +41,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+It's as easy as:
+```
+puts "Hi, I'm colored".red
+```
+
+Available colors include:
+```
+red
+yellow
+green
+magenta
+color_warning
+color_success
+color_error
+```
+
+as well as helper methods like:
+```
+puts_warning
+puts_success
+puts_error
+```
+
+Which would be used as simply as:
+```
+1.even? ? "cool, i never knew that".puts_success : "oh -no! this hurts my brain..".puts_error
+```
 
 ## Development
 
@@ -53,5 +77,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/super-color.
-
+Bug reports and pull requests are `not` welcome. This project is mostly dead.. apologies.
