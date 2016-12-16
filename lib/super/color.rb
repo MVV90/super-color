@@ -21,8 +21,6 @@ module Super
       "\e[35m#{self}\e[0m"
     end
 
-    alias bright_yellow yellow
-
     alias color_warning yellow
     alias color_error red
     alias color_success green
