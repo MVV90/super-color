@@ -1,8 +1,5 @@
 require "super/color/version"
-
-require_relative "../text_power"
-# require File.expand_path('../../text_power', __FILE__)
-
+require File.expand_path('../../text_power', __FILE__)
 
 module Power
   class Color

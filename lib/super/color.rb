@@ -5,14 +5,6 @@ require_relative "../text_power"
 module Super
   module Color
 
-    def capitalize_each
-      self.split(" ").each { |word| word.capitalize! }.join(" ")
-    end
-
-    def capitalize_each!
-      replace capitalize_each
-    end
-
     def red
       "\e[31m#{self}\e[0m"
     end
@@ -34,21 +26,6 @@ module Super
     alias color_warning yellow
     alias color_error red
     alias color_success green
-
-
-
-    # all same
-    def bright
-
-    end
-
-    def bold
-
-    end
-
-    def faint
-
-    end
 
     def puts_warning
       puts yellow
