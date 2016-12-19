@@ -11,7 +11,7 @@ void Init_text_power() {
 }
 
 VALUE method_test1(VALUE self) {
-  int x = 10;
+  int x = 10; // todo add rainbow of color
   return INT2NUM(x);
 }
 
