@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "super-color"
   spec.version       = Super::Color::VERSION
   spec.authors       = ["MVV90"]
-  spec.email         = ["matt.vincek@vydia.com"]
+  spec.email         = ["vincekmatt@gmail.com"]
 
   spec.summary       = %q{Simple gem to add color ASCII characters to any string for terminal output.}
   spec.description   = %q{Supports majority of color names, and best matches over 2048 css color names. Also supports bold, highlight and fainted text styles.}
