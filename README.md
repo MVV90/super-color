@@ -69,6 +69,11 @@ Which would be used as simply as:
 1.even? ? "cool, i never knew that".puts_success : "oh -no! this hurts my brain..".puts_error
 ```
 
+Can even be combined:
+```
+puts "Hello ".green + "World".red + "!".yellow
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

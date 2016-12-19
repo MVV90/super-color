@@ -8,9 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Super::Color::VERSION
   spec.authors       = ["MVV90"]
   spec.email         = ["vincekmatt@gmail.com"]
+  spec.license       = "MIT"
 
   spec.summary       = %q{Simple gem to add color ASCII characters to any string for terminal output.}
-  spec.description   = %q{Supports majority of color names, and best matches over 2048 css color names. Also supports bold, highlight and fainted text styles.}
+  spec.description   = %q{Simple gem to add color to your fancy terminal ASCII characters. Extends string class. As easy as: puts "hi, i'm the color".red \n Supports colors red, yellow, green, magenta, as well as colors for warning, success, and error.}
   spec.homepage      = "https://github.com/MVV90/super-color"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -23,7 +24,6 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 =end
-
 
   spec.extensions << "ext/text_power/extconf.rb"
 
